@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower using css</title>
     <style>
-        #parent{
+        #parent {
             height: 500px;
             width: 500px;
-            background: purple;
             margin: auto;
             position: relative;
-            top:100px;
+            top: 100px;
             overflow: hidden;
         }
-        .common{
+
+        .common {
             height: 250px;
             width: 250px;
             position: absolute;
             background-color: goldenrod;
         }
-        .c1{
+
+        .c1 {
             top: 0px;
             left: 0px;
             border-bottom-left-radius: 250px;
             border-top-right-radius: 250px;
         }
-        .c2{
+
+        .c2 {
             bottom: 0px;
             left: 0px;
             border-bottom-right-radius: 250px;
             border-top-left-radius: 250px;
         }
-        .c3{
+
+        .c3 {
             top: 0px;
             right: 0px;
             border-bottom-right-radius: 250px;
             border-top-left-radius: 250px;
         }
-        .c4{
+
+        .c4 {
             bottom: 0px;
             right: 0px;
             border-bottom-left-radius: 250px;
             border-top-right-radius: 250px;
         }
-        
     </style>
 </head>
+
 <body>
     <div id="parent">
         <div class="c1 common"></div>
@@ -55,4 +60,5 @@
         <div class="c4 common"></div>
     </div>
 </body>
+
 </html>
